@@ -18,6 +18,16 @@ div.right div.connections div.items {
 
 div.right div.connections div.items a {
   text-decoration: none;
+  transition: opacity 0.3s, scale 0.3s;
+}
+
+div.right div.connections div.items:hover:has(:hover) a:not(:hover) {
+  opacity: 0.5;
+  scale: 0.85;
+}
+
+div.right div.connections div.items a:hover {
+  scale: 1.2;
 }
 
 div.right div.connections div.items a img {

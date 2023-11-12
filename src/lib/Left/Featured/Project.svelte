@@ -4,7 +4,7 @@
 
 <div class="project">
   <h3 class="title">
-    <div class="image" class:bg={project.imageBackdrop}>
+    <div class="image">
       <img src={project.image} alt="" />
     </div>
     {#if project.site}

@@ -11,6 +11,14 @@ div.technologies div.group a.tech {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  transition: box-shadow 0.3s, scale 0.3s, rotate 0.3s, background-color 0.3s;
+}
+
+div.technologies div.group a.tech:hover {
+  scale: 1.1;
+  rotate: 2deg;
+  box-shadow: 0 0 20px 0 #0004;
+  background-color: #333;
 }
 
 div.technologies div.group {
