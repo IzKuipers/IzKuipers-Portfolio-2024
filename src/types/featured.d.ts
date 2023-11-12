@@ -3,7 +3,6 @@ interface Project {
   title: string;
   description: string;
   site?: string;
-  imageBackdrop?: boolean;
 }
 
 type FeaturedProjects = Project[];

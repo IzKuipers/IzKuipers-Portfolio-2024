@@ -7,7 +7,6 @@ export const FeaturedProjects: FeaturedProjects = [
     description:
       "The OS in your browser: pushing the limits of web technologies.",
     site: "https://izk-arcos.nl/",
-    imageBackdrop: true,
   },
   {
     image: SosLogo,
@@ -21,10 +20,6 @@ export const FeaturedProjects: FeaturedProjects = [
       "Software to store library books, powered by my Cortex home server.",
   },
   {
-    /**
-      --! IMPORTANT !--
-      CHANGE THIS BEFORE PUBLISHING.
-    */
     image: ReggistryLogo,
     title: "Reggistry",
     description:
