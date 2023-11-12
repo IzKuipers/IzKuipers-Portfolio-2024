@@ -1,4 +1,10 @@
-import { DiscordLogo, EmailLogo, GitHubLogo, TwitterLogo } from "../images";
+import {
+  BlogLogo,
+  DiscordLogo,
+  EmailLogo,
+  GitHubLogo,
+  TwitterLogo,
+} from "../images";
 
 export const Connections: Connections = [
   {
@@ -20,5 +26,10 @@ export const Connections: Connections = [
     name: "Twitter (not X)",
     url: "https://twitter.com/IzKuipers",
     image: TwitterLogo,
+  },
+  {
+    name: "My blog",
+    url: "https://blog.izkuipers.nl/",
+    image: BlogLogo,
   },
 ];

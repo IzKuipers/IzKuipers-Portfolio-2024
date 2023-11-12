@@ -17,3 +17,4 @@ export { default as TwitterLogo } from "../assets/connections/twitter.png";
 export { default as GitHubLogo } from "../assets/connections/github.png";
 export { default as DiscordLogo } from "../assets/connections/discord.png";
 export { default as EmailLogo } from "../assets/connections/email.png";
+export { default as BlogLogo } from "../assets/connections/blog.png";
