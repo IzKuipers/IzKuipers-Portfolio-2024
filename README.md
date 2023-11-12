@@ -12,7 +12,7 @@ With the new year approaching I thought it was finally time to get to writing my
   yarn build
   ```
 - Serve:
-  ```
+  ```bash
   npx serve dist # will run on http://localhost:3000
   ```
 
