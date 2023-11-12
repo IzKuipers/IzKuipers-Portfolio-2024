@@ -1,0 +1,11 @@
+div.left h2.title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+div.left h2.title img {
+  height: 35px;
+}

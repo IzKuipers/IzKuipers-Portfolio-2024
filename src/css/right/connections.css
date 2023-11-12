@@ -1,0 +1,34 @@
+div.right div.connections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+div.right div.connections p {
+  margin: 0;
+}
+
+div.right div.connections div.items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+div.right div.connections div.items a {
+  text-decoration: none;
+}
+
+div.right div.connections div.items a img {
+  width: 35px;
+  max-height: 35px;
+}
+
+@media screen and (max-width: 1000px) {
+  div.right div.connections div.items {
+    display: grid;
+    grid-template-columns: repeat(2, 35px);
+    gap: 10px 20px;
+  }
+}

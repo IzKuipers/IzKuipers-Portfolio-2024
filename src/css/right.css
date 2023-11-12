@@ -1,0 +1,66 @@
+@import url("./right/welcome.css");
+@import url("./right/connections.css");
+
+div.right {
+  margin: 20px;
+  margin-left: auto;
+  background-image: url("../assets/right-bg.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 0 rgb(0, 0, 0, 25%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 35vw;
+}
+
+div.right > div {
+  margin-top: auto;
+}
+
+@media screen and (max-width: 830px) {
+  div.right {
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  div.right div.welcome {
+    flex-direction: row;
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #2e2e2e;
+  }
+
+  div.right div.welcome img {
+    height: 100px;
+  }
+
+  div.right div.welcome div.content {
+    margin-left: auto;
+  }
+
+  div.right div.welcome h1 {
+    margin: 0;
+  }
+
+  div.right div.connections {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 0;
+    background-color: #272727;
+    height: 60px;
+    box-sizing: border-box;
+  }
+
+  div.right div.connections p {
+    display: none;
+  }
+  div.right div.connections div.items {
+    display: flex;
+  }
+}

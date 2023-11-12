@@ -1,0 +1,29 @@
+div.right div.welcome {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.right div.welcome div.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+div.right div.welcome img {
+  height: 150px;
+  border-radius: 50%;
+}
+
+div.right div.welcome h1 {
+  margin: 0;
+  margin-top: 26px;
+  font-size: 40px;
+}
+
+div.right div.welcome p {
+  margin: 0;
+  font-size: 20px;
+  opacity: 0.5;
+}

@@ -1,0 +1,23 @@
+div.left p.about-me {
+  margin: 0;
+  max-width: 518px;
+  font-size: 16px;
+}
+
+div.left p.about-me a.arcos {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 2px;
+  color: skyblue;
+  text-decoration: none;
+}
+
+div.left p.about-me a.arcos:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+div.left p.about-me a.arcos img {
+  height: 22px;
+  align-self: end;
+}
