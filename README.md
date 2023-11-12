@@ -26,4 +26,4 @@ All credits belong to their [Respective Authors](./CREDITS.md).
 
 ## Author
 
-Izaak Z. Kuipers (@IzKuipers)
+Izaak Z. Kuipers ([@IzKuipers](https://github.com/IzKuipers))
