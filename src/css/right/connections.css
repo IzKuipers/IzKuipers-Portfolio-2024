@@ -36,9 +36,27 @@ div.right div.connections div.items a img {
 }
 
 @media screen and (max-width: 1000px) {
+  div.right div.connections {
+    height: 0 !important;
+    padding: 0 !important;
+  }
+
   div.right div.connections div.items {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(2, 35px);
-    gap: 10px 20px;
+    gap: 0 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 50px;
+    background-color: #272727;
+  }
+
+  div.right div.connections div.items a img {
+    width: 24px;
   }
 }
