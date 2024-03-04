@@ -7,5 +7,5 @@
   to write software that's easy to use and that just gets the job done. In 2020
   I started my biggest project yet; <ArcOSLink />.
   <br /><br />
-  And remember... "Printers are a disgrace"!
+  And remember... "Printers are a disgrace!"
 </p>
