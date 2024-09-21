@@ -19,11 +19,12 @@ div.right > div {
   margin-top: auto;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1000px) {
   div.right {
     margin: 0;
     border-radius: 0;
     width: 100%;
+    box-shadow: none !important;
   }
 
   div.right div.welcome {
@@ -40,6 +41,7 @@ div.right > div {
     translate: 0 32px;
     margin-left: auto;
     outline: #222 8px solid !important;
+    outline-offset: -1px;
   }
 
   div.right div.welcome div.content {
