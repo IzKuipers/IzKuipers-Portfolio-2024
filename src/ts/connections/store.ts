@@ -19,7 +19,7 @@ export const Connections: Connections = [
   },
   {
     name: "Email",
-    url: "mailto:izaak@arcapi.nl",
+    url: "mailto:izkuipers@sacruda.nl",
     image: EmailLogo,
   },
   {
