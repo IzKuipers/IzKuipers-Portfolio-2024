@@ -21,3 +21,21 @@ div.left p.about-me a.arcos img {
   height: 22px;
   align-self: end;
 }
+
+div.left p.about-me a.sacruda {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 2px;
+  color: #c393ff;
+  text-decoration: none;
+}
+
+div.left p.about-me a.sacruda:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+div.left p.about-me a.sacruda img {
+  height: 22px;
+  align-self: end;
+}

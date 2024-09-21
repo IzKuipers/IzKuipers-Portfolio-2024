@@ -1,4 +1,11 @@
-import { CSharpLang, GoLang, NodeLang, SvelteLang, TsLang } from "../images";
+import {
+  CSharpLang,
+  GoLang,
+  MongoLang,
+  NodeLang,
+  SvelteLang,
+  TsLang,
+} from "../images";
 
 export const Technologies: Technologies = [
   {
@@ -35,6 +42,11 @@ export const Technologies: Technologies = [
         name: "Go",
         site: "https://go.dev/",
         image: GoLang,
+      },
+      {
+        name: "MongoDB",
+        site: "https://mongodb.com/",
+        image: MongoLang,
       },
     ],
   },

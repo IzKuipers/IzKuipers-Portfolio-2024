@@ -63,3 +63,13 @@ div.featured div.project p.description {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
+@media screen and (max-width: 800px) {
+  div.featured {
+    display: block;
+  }
+  div.featured div.project {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+}

@@ -29,17 +29,22 @@ div.right > div {
   div.right div.welcome {
     flex-direction: row;
     width: 100%;
-    padding: 25px;
+    padding: 0 32px;
     box-sizing: border-box;
-    background-color: #2e2e2e;
+    background-color: rgb(129, 97, 38);
+    height: 64px;
   }
 
   div.right div.welcome img {
-    height: 100px;
+    height: 64px;
+    translate: 0 32px;
+    margin-left: auto;
+    outline: #222 8px solid !important;
   }
 
   div.right div.welcome div.content {
     margin-left: auto;
+    display: none;
   }
 
   div.right div.welcome h1 {
@@ -53,7 +58,7 @@ div.right > div {
     padding: 10px;
     margin-bottom: 0;
     background-color: #272727;
-    height: 60px;
+    height: 7 0px;
     box-sizing: border-box;
   }
 

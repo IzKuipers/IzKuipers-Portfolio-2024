@@ -27,9 +27,4 @@ export const Connections: Connections = [
     url: "https://twitter.com/IzKuipers",
     image: TwitterLogo,
   },
-  {
-    name: "My blog",
-    url: "https://blog.izkuipers.nl/",
-    image: BlogLogo,
-  },
 ];
